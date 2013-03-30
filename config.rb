@@ -2,6 +2,7 @@ set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 
+activate :livereload
 activate :directory_indexes
 
 configure :build do
