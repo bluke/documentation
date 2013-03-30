@@ -1,0 +1,3 @@
+# Documentation ARES
+
+[FAQ](/faq)
