@@ -5,5 +5,7 @@ source 'http://rubygems.org'
 gem 'middleman', '~>3.0.13'
 
 gem 'haml'
+gem 'bourbon'
+gem 'neat'
 gem 'coffee-script'
 gem 'redcarpet'
