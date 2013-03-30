@@ -17,3 +17,10 @@ Il est possible d'avoir de la coloration syntaxique markdown avec
     ```
 
 pour le laguage ruby par exemple
+
+## deployer
+
+Pour deployer il faut build le projet puis pusher le contenu du dossier build
+sur la branch `gh-pages`
+
+    bundle exec middleman build && bundle exec middleman deploy
