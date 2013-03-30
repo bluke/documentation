@@ -7,7 +7,7 @@
 - Avoir une installation de ruby
  
     ```bash
-    sudo apt-get install ruby rubygens
+    sudo apt-get install ruby rubygems
     ```
 
 - Installer bundler
