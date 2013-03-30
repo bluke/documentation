@@ -2,13 +2,35 @@
 
 ## Contribuer à la documentation
 
-- Avoir une installation de ruby `ruby -v`
+### Mise en place environnement
+
+- Avoir une installation de ruby
+ 
+    ```bash
+    sudo apt-get install ruby rubygens
+    ```
+
 - Installer bundler
-- `bundler install`
-- installer les dépendances du projet : `bundle`
-- lancer le server `bundle exec middleman server`
+
+    ```bash
+    sudo gem install bundler
+    ```
+
+- Installer les dépendances du projet
+
+    ```bash
+    bundle install
+    ```
+- Lancer le server 
+
+    ```bash
+    bundle exec middleman server
+    ```
+
 - Vous pouvez maintenant modifier les fichier de la documentation
-et consulter vos changement.
+et consulter vos changement à l'adresse http://localhost:4567
+
+### Coloration syntaxique
 
 Il est possible d'avoir de la coloration syntaxique markdown avec
 
@@ -18,9 +40,11 @@ Il est possible d'avoir de la coloration syntaxique markdown avec
 
 pour le laguage ruby par exemple
 
-## deployer
+## Déployer
 
-Pour deployer il faut build le projet puis pusher le contenu du dossier build
+Pour déployer les mises à jour, il faut build le projet puis pusher le contenu du dossier build
 sur la branch `gh-pages`
 
-    bundle exec middleman build && bundle exec middleman deploy
+```bash
+bundle exec middleman build && bundle exec middleman deploy
+```
