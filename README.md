@@ -9,3 +9,11 @@
 - lancer le server `bundle exec middleman server`
 - Vous pouvez maintenant modifier les fichier de la documentation
 et consulter vos changement.
+
+Il est possible d'avoir de la coloration syntaxique markdown avec
+
+    ```ruby
+    puts "toto"
+    ```
+
+pour le laguage ruby par exemple
