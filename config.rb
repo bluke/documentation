@@ -1,3 +1,8 @@
+# HACK HAML 4
+Haml::Filters.remove_filter('Markdown')
+Haml::Filters.register_tilt_filter('Markdown', template_class: Tilt::RedcarpetTemplate::Redcarpet2)
+# END HACK
+
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
