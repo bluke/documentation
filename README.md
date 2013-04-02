@@ -38,6 +38,10 @@ Il est possible d'avoir de la coloration syntaxique markdown avec
     puts "toto"
     ```
 
+```ruby
+puts "toto"
+```
+
 pour le laguage ruby par exemple
 
 ## Déployer
