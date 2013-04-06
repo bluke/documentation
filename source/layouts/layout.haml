@@ -8,8 +8,9 @@
     = javascript_include_tag 'documentation'
 
   %body{class: page_classes}
-    .notice
+    %header.notice
       :markdown
         En cas de problème avec la documentation, veuillez [ouvrir une issue](https://github.com/ares-ensiie/documentation/issues/new) ou nous contacter sur [#ares](irc://irc.iiens.net/%23ares)
-    = preserve do
-      = yield
+    %article
+      = preserve do
+        = yield

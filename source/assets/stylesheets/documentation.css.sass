@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6
 a
   color: inherit
 
-.notice
+header.notice
   background: $pink
   color: white
   text-align: center
@@ -27,13 +27,16 @@ a
     margin: 0
 
 body
-  +outer-container
   font-family: 'Lato', sans-serif
   font-size: 14pt
   +media($mobile)
     font-size: 12pt
   font-weight: 300
   line-height: 1.5em
+
+article
+  padding: 1em
+  +outer-container
 
 .highlight pre
   font-family: 'Ubuntu Mono', sans-serif
