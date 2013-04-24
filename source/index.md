@@ -12,3 +12,5 @@
 - [Authentication](/developers/api/v1/authentication)
 
 ## Pour les administrateurs
+
+- [L'outil knife-openstack](/admins/chef/knife-openstack)
