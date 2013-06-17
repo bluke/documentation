@@ -13,4 +13,5 @@
 
 ## Pour les administrateurs
 
+- [Architecture de l'infrastructure d'ARES](/admins/infrastructure)
 - [L'outil knife-openstack](/admins/chef/knife-openstack)
