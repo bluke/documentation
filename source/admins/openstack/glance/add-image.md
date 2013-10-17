@@ -43,6 +43,7 @@ le plus simple est de définir les variables d'environnement suivantes :
 
  * `OS_USERNAME`
  * `OS_PASSWORD`
+ * `OS_TENANT_NAME`
  * `OS_AUTH_URL`
 
 Il faut ensuite donné le format de l'image. Pour les images Ubuntu, le format du container est
@@ -56,6 +57,7 @@ La manip au finale ressemble à ça
 ```
   export OS_USERNAME=leo
   export OS_PASSWORD=#SUPERPASSWORD#
+  export OS_TENANT_NAME=staging
   export OS_AUTH_URL=http://ares-ensiie.eu:5000/v2.0/
   glance add -H ares-ensiie.eu name="Ubuntu 13.04 64bits" is_public=True container_format=ovf disk_format=qcow2 < ./ubuntu-13.04-server-cloudimg-amd64-disk1.img
 ```
