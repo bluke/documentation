@@ -18,7 +18,7 @@ Publiques
 
 * [Apache](/admins/services/apache)
 
-> Ce serveur est celui utiliś pour proposer aux utilisateur un accès
+> Ce serveur est celui utilisé pour proposer aux utilisateur un accès
 > à leurs données à l'URL `http://ares-ensiie.eu/~username`
 
 ### Outils
