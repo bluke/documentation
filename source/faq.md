@@ -29,8 +29,8 @@ ARES sont les administrateurs réseaux de l'ENSIIE Strasbourg. Une association f
 - [Wiki](http://wiki.ares-ensiie.eu/doku.php?id=start)
 - [Gitlab](https://git.ares-ensiie.eu/)
 - [Page d'accueil](https://ares-ensiie.eu/)
-- [Documentation](doc.ares-ensiie.eu/)
-- [Mailing lists](listes.ares-ensiie.eu/wws)
+- [Documentation](http://doc.ares-ensiie.eu/)
+- [Mailing lists](http://listes.ares-ensiie.eu/wws)
 - Wifi
 
 
