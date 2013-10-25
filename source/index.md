@@ -14,5 +14,6 @@
 ## Pour les administrateurs
 
 - [Architecture de l'infrastructure d'ARES](/admins/infrastructure)
+- [Les services d'ARES](/admins/services)
 - [Private Iaas - Openstack](/admins/openstack)
 - [L'outil knife-openstack](/admins/chef/knife-openstack)
