@@ -6,7 +6,7 @@ Qu'est-ce qu'un VPN (Virtual Private Network)
 En deux mots quand vous êtes à l'ISU et que vous vous connectez au wifi ENSIIE:
 ##Sans VPN
 
-  Votre requête sur `http://google.com` passe doit passer par le proxy de l'ISU (où elle est analysée btw) avant de sortir dans le vaste espace.
+  Votre requête sur [http://google.com](http://google.com) passe doit passer par le proxy de l'ISU (où elle est analysée btw) avant de sortir dans le vaste espace.
     Lorsque vous essayez de vous connecter à notre serveur Minecraft, la connexion échoue lamentablement car l'ISU a eu la bonne idée de bloquer l'intégralité des ports sauf quelques uns.
 
 ##Avec VPN
@@ -25,9 +25,8 @@ Pour ajouter l'intégration de network manager à Network Manager, votre gestion
 
 	sudo apt-get install network-manager-openvpn
 
-Tout d'abord, quelque soit la technique, il est nécessaire de récupérer quelques fichiers.
+Tout d'abord, quelque soit la technique, il est nécessaire de récupérer quelques [fichiers](https://vpn.ares-ensiie.eu).
 
-`https://vpn.ares-ensiie.eu` :
 <div style="text-align:center">
 	<img src="./vpn/vpn.ares-ensiie.eu.png" width="60%"/>
 </div>
@@ -112,7 +111,7 @@ Repérez l'identifiant de votre interface, pour ma part:
 
 Et lancez la commande:
 
-	route add 130.79.243.34 $IPGATEWAY if $IFID
+	route add 130.79.243.34 $IPGATEWAY if $IFID	
 
 A l'ISU réseau “ENSIIE”:
 
