@@ -3,7 +3,7 @@
 ## Pour les utilisateurs
 
 - [FAQ](/faq)
-- [Guides] (/guides/guides)
+- [Guides] (/guides)
 
 ## Pour les développeurs
 
