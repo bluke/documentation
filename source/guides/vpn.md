@@ -28,14 +28,14 @@ Pour ajouter l'intégration de network manager à Network Manager, votre gestion
 Tout d'abord, quelque soit la technique, il est nécessaire de récupérer quelques [fichiers](https://vpn.ares-ensiie.eu).
 
 <div style="text-align:center">
-	<img src="./vpn/vpn.ares-ensiie.eu.png" width="60%"/>
+	<img src="vpn/vpn.ares-ensiie.eu.png" width="60%"/>
 </div>
 ###Sous Linux
 ####Graphiquement (GNOME/Unity)
 
 #####Ajout d'un VPN : 
 <div style="text-align:center">
-	<img src="./vpn/ubuntu_1.png" width="60%" >
+	<img src="vpn/ubuntu_1.png" width="60%" >
 	<img src="./vpn/ubuntu_2.png" width="60%" style="text-align-center"/>
 </div>
 #####Type de VPN : 
