@@ -4,3 +4,4 @@
 - [Hébergement] (/guides/hebergement/hebergement): comment héberger rapidement son site web
 - [Base de données] (/guides/bdd/bdd) : demander une base de données, c'est facile
 - [FTP] (/guides/ftp/ftp) : vos données sur les serveurs d'Ares en quelques clics
+- [IRC] (/guides/irc/irc) : communiquer en toute simplicité
